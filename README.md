@@ -2,7 +2,7 @@
 A collection of tiny Windows utilities.
 
 ## Bitness
-Reads the PE and COFF headers of an assembly to find the machine type it was compiled for.
+Command line program that reads the PE and COFF headers of an assembly to find the machine type it was compiled for.
 
 #### Usage
 `Bitness [path to assembly]` will output the machine type.
@@ -15,3 +15,5 @@ Get and/or set Windows' mouse speed from the command line.
 
 `MouseSpeed [speed]` - set the mouse speed to `[speed]` directly.
 
+## Measure
+Windows Forms application that lets you measure distances on screen.
