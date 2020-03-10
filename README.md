@@ -1,13 +1,17 @@
 # TinyUtils
 A collection of tiny Windows utilities.
 
-## Bitness
+## Download
+To get the portable apps, [click here](https://github.com/therezin/TinyUtils/releases/latest).
+
+## Contents
+### Bitness
 Command line program that reads the PE and COFF headers of an assembly to find the machine type it was compiled for.
 
 #### Usage
 `Bitness [path to assembly]` will output the machine type.
 
-## MouseSpeed
+### MouseSpeed
 Get and/or set Windows' mouse speed from the command line.
 
 #### Usage
@@ -15,8 +19,8 @@ Get and/or set Windows' mouse speed from the command line.
 
 `MouseSpeed [speed]` - set the mouse speed to `[speed]` directly.
 
-## Measure
+### Measure
 Windows Forms application that lets you measure distances on screen.
 
-## MachineKeyGenerator
+### MachineKeyGenerator
 Windows Forms application to generate cryptographically secure machine keys for ASP.Net web apps that require them, such as those hosted in web farms.
