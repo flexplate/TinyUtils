@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseSpeed", "MouseSpeed\Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Measure", "Measure\Measure.csproj", "{C32135A3-AFBB-4A3D-8AC6-B07CF94BBCBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineKeyGenerator", "MachineKeyGenerator\MachineKeyGenerator.csproj", "{58D5F4FE-B853-42F8-BA17-9CDC53E77036}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C32135A3-AFBB-4A3D-8AC6-B07CF94BBCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C32135A3-AFBB-4A3D-8AC6-B07CF94BBCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C32135A3-AFBB-4A3D-8AC6-B07CF94BBCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D5F4FE-B853-42F8-BA17-9CDC53E77036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D5F4FE-B853-42F8-BA17-9CDC53E77036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D5F4FE-B853-42F8-BA17-9CDC53E77036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D5F4FE-B853-42F8-BA17-9CDC53E77036}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

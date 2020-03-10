@@ -17,3 +17,6 @@ Get and/or set Windows' mouse speed from the command line.
 
 ## Measure
 Windows Forms application that lets you measure distances on screen.
+
+## MachineKeyGenerator
+Windows Forms application to generate cryptographically secure machine keys for ASP.Net web apps that require them, such as those hosted in web farms.
