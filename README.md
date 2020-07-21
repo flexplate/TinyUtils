@@ -26,8 +26,8 @@ Windows Forms application that lets you measure distances on screen.
 Windows Forms application to generate cryptographically secure machine keys for ASP.Net web apps that require them, such as those hosted in web farms.
 
 
-### ColourAtCursor
+### SwatchThis (formerly ColourAtCursor)
 Get the colour of the pixel under the cursor.
 
 ## Legal notices
-ColourAtCursor contains material from the [Splash Of Fruit icon set](http://www.iconarchive.com/show/splash-of-fruit-icons-by-alex-t.html) by [Alex T](http://www.iconarchive.com/artist/alex-t.html). , licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/).
+SwatchThis contains material from the [Splash Of Fruit icon set](http://www.iconarchive.com/show/splash-of-fruit-icons-by-alex-t.html) by [Alex T](http://www.iconarchive.com/artist/alex-t.html). , licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/).

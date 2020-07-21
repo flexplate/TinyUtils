@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ColourAtCursor</RootNamespace>
-    <AssemblyName>ColourAtCursor</AssemblyName>
+    <AssemblyName>SwatchThis</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -27,8 +27,9 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\bin\Release\ColourAtCursor\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <OutputPath>..\bin\Release\SwatchThis\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -49,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoreFunctions.cs" />
     <Compile Include="KeyboardHook.cs" />
     <Compile Include="MainDisplay.cs">
       <SubType>Form</SubType>
@@ -56,10 +58,19 @@
     <Compile Include="MainDisplay.Designer.cs">
       <DependentUpon>MainDisplay.cs</DependentUpon>
     </Compile>
+    <Compile Include="MouseFollower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MouseFollower.Designer.cs">
+      <DependentUpon>MouseFollower.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainDisplay.resx">
       <DependentUpon>MainDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MouseFollower.resx">
+      <DependentUpon>MouseFollower.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -69,6 +80,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

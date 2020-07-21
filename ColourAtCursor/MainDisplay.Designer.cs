@@ -1,4 +1,4 @@
-﻿namespace ColourAtCursor
+﻿namespace SwatchThis
 {
     partial class MainDisplay
     {
@@ -34,6 +34,7 @@
             this.pbColour = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.chkShowFollower = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbColour)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,11 +83,23 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Ctrl+Alt+C";
             // 
+            // chkShowFollower
+            // 
+            this.chkShowFollower.AutoSize = true;
+            this.chkShowFollower.Location = new System.Drawing.Point(15, 38);
+            this.chkShowFollower.Name = "chkShowFollower";
+            this.chkShowFollower.Size = new System.Drawing.Size(126, 17);
+            this.chkShowFollower.TabIndex = 5;
+            this.chkShowFollower.Text = "Show mouse follower";
+            this.chkShowFollower.UseVisualStyleBackColor = true;
+            this.chkShowFollower.CheckedChanged += new System.EventHandler(this.chkShowFollower_CheckedChanged);
+            // 
             // MainDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(323, 43);
+            this.ClientSize = new System.Drawing.Size(323, 63);
+            this.Controls.Add(this.chkShowFollower);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pbColour);
@@ -95,7 +108,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainDisplay";
-            this.Text = "Colour At Cursor";
+            this.Text = "SwatchThis";
             ((System.ComponentModel.ISupportInitialize)(this.pbColour)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -109,6 +122,7 @@
         private System.Windows.Forms.PictureBox pbColour;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox chkShowFollower;
     }
 }
 

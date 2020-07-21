@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ColourAtCursor
+namespace SwatchThis
 {
     /// <summary>
     /// Source : https://stackoverflow.com/a/27309185/6614025
