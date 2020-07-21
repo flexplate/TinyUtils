@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Measure", "Measure\Measure.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineKeyGenerator", "MachineKeyGenerator\MachineKeyGenerator.csproj", "{58D5F4FE-B853-42F8-BA17-9CDC53E77036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchThis", "ColourAtCursor\SwatchThis.csproj", "{E8CD9920-B363-488B-B70A-F2ECF3C3AB3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchThis", "SwatchThis\SwatchThis.csproj", "{E8CD9920-B363-488B-B70A-F2ECF3C3AB3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDown", "GetDown\GetDown.csproj", "{C1465C03-1121-45BA-9788-EAD863CDE61F}"
 EndProject
