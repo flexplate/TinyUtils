@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitness", "Bitness\Bitness.csproj", "{26DC4DFB-F0B0-421A-AAAD-CA225C762AFF}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineKeyGenerator", "MachineKeyGenerator\MachineKeyGenerator.csproj", "{58D5F4FE-B853-42F8-BA17-9CDC53E77036}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColourAtCursor", "ColourAtCursor\ColourAtCursor.csproj", "{E8CD9920-B363-488B-B70A-F2ECF3C3AB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstBits", "FirstBits\FirstBits.csproj", "{2A623B9F-525B-46A8-88CC-B4EDC4CA273A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +47,15 @@ Global
 		{E8CD9920-B363-488B-B70A-F2ECF3C3AB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8CD9920-B363-488B-B70A-F2ECF3C3AB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8CD9920-B363-488B-B70A-F2ECF3C3AB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A623B9F-525B-46A8-88CC-B4EDC4CA273A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A623B9F-525B-46A8-88CC-B4EDC4CA273A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A623B9F-525B-46A8-88CC-B4EDC4CA273A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A623B9F-525B-46A8-88CC-B4EDC4CA273A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43199405-B6DE-45D4-87A6-298DA7D02547}
 	EndGlobalSection
 EndGlobal

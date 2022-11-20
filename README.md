@@ -11,6 +11,18 @@ Command line program that reads the PE and COFF headers of an assembly to find t
 #### Usage
 `Bitness [path to assembly]` will output the machine type.
 
+### ColourAtCursor
+Get the colour of the pixel under the cursor.
+
+### FirstBits
+View the first kilobyte of a file in hexadecimal and your chosen encoding. Useful for checking out file headers and such.
+
+### MachineKeyGenerator
+Windows Forms application to generate cryptographically secure machine keys for ASP.Net web apps that require them, such as those hosted in web farms.
+
+### Measure
+Windows Forms application that lets you measure distances on screen.
+
 ### MouseSpeed
 Get and/or set Windows' mouse speed from the command line.
 
@@ -19,15 +31,6 @@ Get and/or set Windows' mouse speed from the command line.
 
 `MouseSpeed [speed]` - set the mouse speed to `[speed]` directly.
 
-### Measure
-Windows Forms application that lets you measure distances on screen.
-
-### MachineKeyGenerator
-Windows Forms application to generate cryptographically secure machine keys for ASP.Net web apps that require them, such as those hosted in web farms.
-
-
-### ColourAtCursor
-Get the colour of the pixel under the cursor.
 
 ## Legal notices
-ColourAtCursor contains material from the [Splash Of Fruit icon set](http://www.iconarchive.com/show/splash-of-fruit-icons-by-alex-t.html) by [Alex T](http://www.iconarchive.com/artist/alex-t.html). , licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/).
+ColourAtCursor and FirstBits contain material from the [Splash Of Fruit icon set](http://www.iconarchive.com/show/splash-of-fruit-icons-by-alex-t.html) by [Alex T](http://www.iconarchive.com/artist/alex-t.html). , licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/).
